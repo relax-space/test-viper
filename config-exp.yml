@@ -1,0 +1,5 @@
+kafka-server:
+  environment:
+    KAFKA_LISTENERS: INSIDE://:9092,OUTSIDE://:29092
+  image: wurstmeister/kafka
+version: "3"
